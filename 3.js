@@ -16,8 +16,7 @@ function changePossibilities(amount,denominations) {
         }
       }
     }
-  console.log(count);
   return count;
 }
 
-changePossibilities(5, [1, 2, 3, 4]);
+changePossibilities(4, [1, 2, 3]);
